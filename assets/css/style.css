@@ -1,0 +1,93 @@
+/* 
+    Share
+*/
+a.shareme-link {
+    color: #fff;
+    cursor: pointer;
+    margin-top: 2px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    text-align: center;
+    margin-right: 8px;
+    text-decoration: none;
+    box-shadow: 3px 7px 14px #bfbfbf;
+    outline: none;
+    transition: .3s;
+} 
+a.shareme-link:hover {
+    transform: scale(1.1);
+}
+.shareme-link:hover,.shareme-link:active {
+    color: white;
+}
+a.shareme-link.shareme-facebook span {
+    color: #fff;
+}
+
+.shareme-link span {
+    line-height: 33px;
+    font-size: 17px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.shareme-link:last-child {
+    margin-right: 0;
+}
+.shareme-twitter {
+    background: #00aced;
+}
+ 
+.shareme-twitter:hover,.shareme-twitter:active {
+    background: #0084b4;
+}
+ 
+.shareme-facebook {
+    background: #3B5997;
+}
+a.shareme-link.shareme-facebook span {
+    color: #fff;
+}
+.shareme-facebook:hover,.shareme-facebook:active {
+    background: #2d4372;
+}
+ 
+.shareme-googleplus {
+    background: #D64937;
+}
+ 
+.shareme-googleplus:hover,.shareme-googleplus:active {
+    background: #b53525;
+}
+ 
+.shareme-buffer {
+    background: #444;
+}
+ 
+.shareme-buffer:hover,.shareme-buffer:active {
+    background: #222;
+}
+ 
+.shareme-pinterest {
+    background: #bd081c;
+}
+ 
+.shareme-pinterest:hover,.shareme-pinterest:active {
+    background: #bd081c;
+}
+ 
+.shareme-linkedin {
+    background: #0074A1;
+}
+ 
+.shareme-linkedin:hover,.shareme-linkedin:active {
+    background: #006288;
+}
+ 
+.shareme-social-icon {
+    margin: 20px 0px 25px 0px;
+    -webkit-font-smoothing: antialiased;
+    font-size: 12px;
+}
